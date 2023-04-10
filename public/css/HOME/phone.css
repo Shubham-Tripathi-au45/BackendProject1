@@ -1,0 +1,87 @@
+* {
+    font-size: 0.85rem;
+}
+
+/* HOME secttion */
+.home {
+    padding-top: 50px;
+    height: 500px;
+
+}
+
+.home::before {
+        height: 70%;
+}
+
+.home::before {
+    height: 50%;
+}
+
+/* images in home section */
+.gym-logo-image img {
+    height: 100px;
+    width: 100px;
+}
+
+/* flex box in home section */
+.home-flex {
+    padding: 10px 107px;
+}
+
+/* gym details section */
+.head-of-gym-details-slides {
+    color: #004640;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.gym-details {
+    height: 500px;
+}
+
+#gym-detail-title {
+    font-style: italic;
+    color: #004640;
+}
+
+p.h-secondary {
+    text-align: center;
+}
+/* sliding image in gym-details section */
+.image-slides {
+    padding: 10px 10px;
+}
+.carousel-item img {
+   height: 250px;
+    width: 250px;
+    z-index: -1;
+}
+.carousel-item p {
+    font-size: 1.2rem;
+}
+/* Why-choose-us section */
+.Why-choose-us {
+    margin-bottom: 30px;
+    height: 800px;
+}
+.Why-choose-us img {
+    height: 250px;
+    width: 300px;
+}
+
+.flex-box-Why-choose-us {
+    height: 800px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 87% 95%, 0% 100%);
+}
+
+
+/* utility classes can be applied anywhere */
+.h-primary {
+    font-size: 1.4rem;
+}
+
+.h-secondary {
+    font-size: 1.2rem;
+}
+.navbar-nav{
+float:right;
+background-color:black

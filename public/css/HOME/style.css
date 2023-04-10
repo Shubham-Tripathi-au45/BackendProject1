@@ -1,0 +1,146 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+    font-family:  'Baloo Paaji 2', cursive;
+    box-sizing: border-box;
+    */
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+/* nav secttion */
+.nav-section{
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+   
+}
+.nav-section .navbar{
+    background-color: rgb(37, 1, 45);
+    height: 60px;
+    
+}
+/* class given by me to override bootstrap */
+.nav-tag{
+    color: white;
+    padding: 10px;
+    margin:10px;
+    border-radius: 33px;
+}
+.nav-tag:hover{
+    background-color: white;
+    color: black ;
+}
+
+.gym-logo{
+    background-color: transparent;
+}
+.dynamic-nav{
+    background-color: white !important;
+    color: black ;
+}
+
+/* home section */
+.home{
+    /* background: url(../sven-mieke-MsCgmHuirDo-unsplash.jpg) no-repeat center center/cover;
+    height: 100vh; */
+
+    color: white;
+    padding-top: 58px;
+    height: 680px;
+}
+.home::before{
+    content: "";
+    position: absolute;
+    background: url(../../IMAGES/sven-mieke-MsCgmHuirDo-unsplash.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+}
+/* images in home section */
+.gym-logo-image img{
+    height: 200px;
+    width: 200px;
+}
+/* flex box in home section */
+.home-flex{
+    padding: 2px 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* gym details section */
+.gym-details{
+    padding: 10px 10px;
+    height: 900px;
+}
+#gym-detail-title{
+    font-style: italic;
+    color: #004640;
+}
+p.h-secondary{
+    text-align: center;
+}
+
+/* sliding image in gym-details section */
+.image-slides{
+    padding: 10px 10px;
+}
+.carousel-item img{
+    /* display: block; */
+    /* margin: auto; */
+    height: 500px;
+    width: 800px !important;
+    z-index: -2;
+}
+.carousel-item{
+    /* position: absolute; */
+    /* display: flex;
+    flex-direction: column; */
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: darkcyan;
+}
+/* Why-choose-us section */
+.Why-choose-us{
+    
+    margin-bottom: 10px;
+    height: 700px;
+    
+    color: #02072e;
+}
+.text-choose-us{
+    width: 400px;
+    text-align: center;
+}
+.Why-choose-us img{
+    height: 400px;
+    width: 500px;
+}
+.flex-box-Why-choose-us{
+    padding: 50px 50px;
+    height:600px;
+    color: whitesmoke;
+    background-color: #02072e;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,80% 80%,0% 100%);
+}
+
+
+/* utility classes can be applied anywhere */
+.h-primary{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+.h-secondary{
+    font-size: 1.5rem;
+}

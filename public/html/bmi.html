@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI of Gym</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"
+    defer></script>
+  <!-- Font family -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/BMI/bmi.css">
+  <!-- <script src="../BMI script/script.js" defer></script> -->
+</head>
+
+<body>
+  <section class="nav-section">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <nav class="gym-logo navbar">
+          <div class="container">
+            <img src="../IMAGES/gym-7328168_1280.png" alt="" width="35" height="35">
+          </div>
+        </nav>
+        <button class="navbar-toggler nav-tag" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link nav-tag" aria-current="page" href="http://localhost:8000/home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tag" href="http://localhost:8000/about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tag" href="http://localhost:8000/bmi">Check BMI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tag" href="http://localhost:8000/membership">Membership</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tag" href="http://localhost:8000/dietPlans">Diet Plans</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tag" href="http://localhost:8000/healthBlogs" \>Health Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tag" href="http://localhost:8000/profile">Profile</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+          <div class="hstack gap-3">
+            <a href="http://localhost:8000/login" style="text-decoration:none;">
+              <h6 type="button" style="font-size:17px;color:white;border:none;">Login</h6>
+            </a>
+            <vr></vr>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <div class="container">
+    <div class="text-center img-fluid max-width:100%">
+      <img src="https://t4.ftcdn.net/jpg/03/17/72/47/360_F_317724775_qHtWjnT8YbRdFNIuq5PWsSYypRhOmalS.jpg"
+        class="rounded" id="first" alt="...">
+    </div>
+
+    <div class="text-center img-fluid max-width:100%">
+      <img
+        src="https://media.istockphoto.com/photos/gym-background-fitness-weight-equipment-on-empty-dark-floor-picture-id1213615970?k=20&m=1213615970&s=612x612&w=0&h=S2Ny5JNrAlcpZ_0mt76CKAwARqvJN5glvHpB9fD3DA0="
+        class="rounded" id="second" alt="...">
+    </div>
+  </div>
+  </br>
+  <div class="container">
+    <div id="box">
+      <h1> BMI CALCULATOR </h1>
+      <div class="input-group mb-3">
+        <span class="input-group-text">Kg</span>
+        <span class="input-group-text">Weight</span>
+        <input type="text" class="form-control" id="weight"
+          aria-label="Dollar amount (with dot and two decimal places)">
+      </div>
+
+      <div class="input-group">
+        <input type="text" class="form-control" id="height"
+          aria-label="Dollar amount (with dot and two decimal places)">
+        <span class="input-group-text">Height<sup>2</sup>
+          <h5> </h5>
+        </span>
+        <span class="input-group-text">MTRS</span>
+      </div>
+      <span id="heading"></span>
+      </br>
+      <button type="button" id="submit" class="btn btn-info col-4">Submit</button>
+      </br>
+      <div class="input-group">
+        <input type="text" class="form-control" id="result" aria-label="Dollar amount (with dot and two decimal places)"
+          disabled>
+        <span class="input-group-text">Your Fitness Result</span>
+        <!--   <span class="input-group-text">CM</span> -->
+      </div>
+      <span id="heading"></span>
+    </div>
+
+    <div class="container">
+      <div class="text-center img-fluid max-width:none">
+        <img src="https://t4.ftcdn.net/jpg/03/17/72/47/360_F_317724775_qHtWjnT8YbRdFNIuq5PWsSYypRhOmalS.jpg"
+          class="rounded mx-auto d-block" id="third" alt="...">
+      </div>
+
+
+      <div class="text-center img-fluid max-width:none%">
+        <img
+          src="https://media.istockphoto.com/photos/gym-background-fitness-weight-equipment-on-empty-dark-floor-picture-id1213615970?k=20&m=1213615970&s=612x612&w=0&h=S2Ny5JNrAlcpZ_0mt76CKAwARqvJN5glvHpB9fD3DA0="
+          class="rounded mx-auto d-block" id="four" alt="...">
+      </div>
+    </div>
+
+    <div class="container-fluid text-light py-5" id="footer" style="background-color:black;">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <a href="#" class="fa fa-facebook px-3 text-danger fa2"></a>
+            <a href="#" class="fa fa-twitter px-3 text-danger fa2"></a>
+            <a href="#" class="fa fa-linkedin px-3 text-danger fa2"></a>
+            <a href="#" class="fa fa-instagram px-3 text-danger fa2"></a><br><br>
+            <span style="font-size: 12px;">The Maruti Gym &copy; 2022 TriBha Fitness Pvt. Ltd.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var heightInput = document.querySelector("#height");
+      var weightInput = document.querySelector("#weight");
+      var calculateButton = document.querySelector("#submit");
+      var result = document.querySelector("#result");
+      var statement = document.querySelector("#heading");
+      var BMI, height, weight;
+
+      calculateButton.addEventListener("click", () => {
+        //   if(BMI < 18.5){
+        //         statement.innerText = "Your BMI falls within the underweight range";    
+        //     }else if((BMI > 18.5) && (BMI < 24.9)){
+        //         statement.innerText = "Your BMI falls within the normal or healthy weight range";
+        //     }else if((BMI > 25) && (BMI < 29.9 )){
+        //         statement.innerText = "Your BMI falls within the overweight range";
+        //     }else{
+        //         statement.innerText = "Your BMI falls within the obese range"
+        //     }
+        // });
+        height = heightInput.value;
+        weight = weightInput.value;
+        BMI = weight / (height ** 2);
+        result.value = BMI;
+        console.log(BMI)
+        console.log(height)
+        console.log(weight)
+        if (BMI < 18.5) {
+          statement.innerText = "Your BMI falls within the underweight range";
+        } else if ((BMI > 18.5) && (BMI < 24.9)) {
+          statement.innerText = "Your BMI falls within the normal or healthy weight range";
+        } else if ((BMI > 25) && (BMI < 29.9)) {
+          statement.innerText = "Your BMI falls within the overweight range";
+        } else {
+          statement.innerText = "Your BMI falls within the obese range"
+        }
+      });
+    </script>
+
+
+</body>
+
+</html>

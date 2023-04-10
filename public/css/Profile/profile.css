@@ -1,0 +1,158 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Baloo Paaji 2', cursive;
+    box-sizing: border-box;
+
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: repeating-linear-gradient(45deg,red,#010149 ,grey);
+    background-size: contain;
+    height: max-content;
+}
+/* nav secttion */
+.nav-section {
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+
+}
+
+.nav-section .navbar {
+    background-color: rgb(37, 1, 45);
+    height: 60px;
+
+}
+
+/* class given by me to override bootstrap */
+.nav-tag {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 33px;
+}
+
+.nav-tag:hover {
+    background-color: white;
+    color: black;
+}
+
+.gym-logo {
+    background-color: transparent;
+}
+
+/* For Desktop View */
+
+/* For Tablet View */
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .navbar-nav {
+        float: right;
+        background-color: black;
+        padding-left: 20px;
+    }
+
+    .nav-section .navbar {
+        height: 90px;
+    }
+
+}
+
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+    .navbar-nav {
+        float: right;
+        background-color: black;
+        padding-left: 5px;
+        font-size: x-small
+    }
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+    .navbar-nav {
+        float: right;
+        background-color: black;
+        padding-left: 5px;
+        font-size: x-small
+    }
+
+}
+
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .navbar-nav {
+        float: right;
+        background-color: black;
+        padding-left: 5px;
+    }
+
+}
+
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+
+    .navbar-nav {
+        float: right;
+        background-color: black;
+        padding-left: 5px;
+    }
+}
+/* nav section completed */
+
+/* mid-section */
+.mid-section{
+    padding-top: 60px;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+/* profile section user detail */
+
+.profile-data{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+.profile-flex{
+    border: 3px solid palevioletred;
+    border-radius: 20px;
+    padding: 15px;
+    width: 40vw;
+    height: max-content;
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+.flex-profileData{
+    display: flex;
+    justify-content: space-between;
+}
+.profile-flex img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+.btn-addBlog{
+    text-align: center;
+}
+
+
+
+/* footer section */
+.footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+/* adding this dynamic footer only when i got diet plans; */
+.dynamic-footer{
+    margin-top: 10px !important;
+    position: static !important
+}

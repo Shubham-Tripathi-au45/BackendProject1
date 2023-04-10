@@ -1,0 +1,32 @@
+.home::before {
+    height: 60%;
+}
+.home-flex {
+    padding: 10px 70px;
+}
+.Why-choose-us img {
+    height: 150px;
+    width: 200px;
+}
+.flex-box-Why-choose-us{
+
+    padding: 10px 10px;
+    text-align: center;
+    height:600px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+} 
+.Why-choose-us {
+    margin-bottom: 30px;
+    height: 610px;
+}
+.image-logo {
+   height:max-content;
+   width: 100%;
+   padding-top: 40px;
+}
+.navbar-nav{
+float:right;
+background-color:black
+}

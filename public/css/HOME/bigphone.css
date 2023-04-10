@@ -1,0 +1,35 @@
+*{
+    font-size: 1rem;
+}
+/* Why-choose-us section */
+/* .Why-choose-us {
+    margin-bottom: 30px;
+    height: 800px;
+} */
+.text-choose-us h1{
+    font-size: 1.5rem;
+}
+.text-choose-us p{
+    font-size: 0.8rem;
+}
+.Why-choose-us img {
+    height: 250px;
+    width: 300px;
+}
+
+.flex-box-Why-choose-us {
+    /* height: 800px; */
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 90% 98%, 0% 100%);
+}
+
+/* utility classes can be applied anywhere */
+.h-primary{
+   font-size: 1.5rem;
+}
+/* .h-secondary{
+    font-size: 1rem;
+} */
+.navbar-nav{
+float:right;
+background-color:black
+}

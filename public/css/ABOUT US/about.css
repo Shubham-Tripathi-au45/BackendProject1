@@ -1,0 +1,140 @@
+/* nv section */
+.nav-section{
+    position: fixed;
+    width: 100vw;
+    z-index: 99999;
+   
+}
+.nav-section .navbar{
+    background-color: rgb(37, 1, 45);
+    height: 60px;
+}
+/*  */
+/* class given by me to override bootstrap */
+/* doubt */
+.nav-tag{
+    color: white !important;
+    padding: 10px;
+    margin:10px;
+    border-radius: 33px;
+}
+.nav-tag:hover{
+    background-color: white !important;
+    color: black !important;
+}
+.gym-logo{
+    background-color: transparent !important;
+}
+.about-section{
+padding-top: 60px;
+}
+
+
+
+
+
+
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+    .gfg-div {
+      background-color: #63c971;
+      color: #fff;
+    }
+  }
+   
+  /* For Tablet View */
+  @media screen and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    .navbar-nav{
+        float:right;
+        background-color: black;
+        padding-left: 20px;
+    }
+    .nav-section .navbar{
+        height:90px;
+    }
+    .carousel-item {
+        margin-top:35px;
+    }
+    .carousel-item {
+        margin-right:10px
+    }
+    }
+  
+   
+  /* For Mobile Portrait View */
+  @media screen and (max-device-width: 480px)
+  and (orientation: portrait) {
+    .navbar-nav{
+        float:right;
+        background-color: black;
+        padding-left: 5px;
+        font-size: x-small
+  }
+  .dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: 0;
+    margin-top: var(--bs-dropdown-spacer);
+    font-size: x-small;
+    padding-left: 10px;
+  }
+  .navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    font-size: x-small;
+}
+  }
+   
+  /* For Mobile Phones Portrait or Landscape View */
+  @media screen and (max-device-width: 640px) {
+    .carousel-inner{
+        margin-top: 5px;
+    }
+    .navbar-nav{
+        float:right;
+        background-color: black;
+        padding-left: 5px;
+        font-size: x-small
+  }
+  .dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: 0;
+    margin-top: var(--bs-dropdown-spacer);
+    font-size: x-small;
+    padding-left: 5px;
+  }
+  .navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    font-size: x-small;
+  }
+   
+}
+   
+  /* For iPhone 5 Portrait or Landscape View */
+  @media (device-height: 568px) and (device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        cursor: pointer;
+        font-size: x-small;
+  }
+  .navbar-nav{
+    float:right;
+    background-color: black;
+    padding-left: 5px;
+}
+
+}
+   
+  /* For iPhone 6 and 6 plus Portrait or Landscape View */
+  @media (min-device-height: 667px) and (min-device-width: 375px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        cursor: pointer;
+        font-size: x-small;
+  }
+  .navbar-nav{
+    float:right;
+    background-color: black;
+    padding-left: 5px;
+}
+  }
